@@ -37,7 +37,7 @@ app.use(taskRouter)
 app.use(commentRouter)
 app.use(progressRouter)
 app.get("/", (req, res) => {
-  res.send("Project Management System");
+  res.send("Project Management System is working");
 });
 
 app.listen(PORT, () => {
